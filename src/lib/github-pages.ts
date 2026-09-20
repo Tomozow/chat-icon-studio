@@ -1,3 +1,4 @@
+/** Latest GitHub Release page for the Windows NSIS installer. */
 export function githubReleasesUrl(): string | null {
   const repo = import.meta.env.VITE_GITHUB_REPOSITORY || inferRepo()
   if (!repo) return null
