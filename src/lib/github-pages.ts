@@ -7,7 +7,7 @@ export function githubReleasesUrl(): string | null {
 export function githubInstallerUrl(): string | null {
   const repo = import.meta.env.VITE_GITHUB_REPOSITORY || inferRepo()
   if (!repo) return null
-  const name = encodeURIComponent('Chat Icon Studio_0.1.0_x64-setup.exe')
+  const name = encodeURIComponent('Chat.Icon.Studio_0.1.0_x64-setup.exe')
   return `https://github.com/${repo}/releases/latest/download/${name}`
 }
 
