@@ -1,0 +1,48 @@
+@import 'tailwindcss';
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+  min-width: 500px;
+  background: #09090b;
+}
+
+.chat-line[data-theme='dark']:hover {
+  background: #1f1f23 !important;
+}
+
+.chat-line[data-theme='light']:hover {
+  background: #f7f7f8 !important;
+}
+
+.chat-line {
+  padding: 5px 10px;
+  font-size: 13px;
+  line-height: 22px;
+  overflow-wrap: anywhere;
+}
+
+.tw-badge {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin: 0 3px 2px 0;
+  vertical-align: middle;
+}
+
+.tw-emote-slot {
+  display: inline-block;
+  line-height: 0;
+  margin: 1px 2px;
+  vertical-align: middle;
+}
+
+.tw-emote {
+  display: block;
+  width: 28px;
+  height: 28px;
+  margin: 0;
+  vertical-align: middle;
+}
