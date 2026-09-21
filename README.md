@@ -14,9 +14,7 @@ Twitch のチャット欄に近い見た目で、エモート・バッジ・チ�
 | Windows インストーラ（Releases） | https://github.com/Tomozow/chat-icon-studio/releases/latest/download/Chat.Icon.Studio_0.1.0_x64-setup.exe |
 | Release 一覧 | https://github.com/Tomozow/chat-icon-studio/releases |
 
-Pages は GitHub Actions で `main` のフロントエンドをデプロイしています。インストーラ（NSIS）は Releases の `v0.1.0` にあります。GitHub がスペースを `.` に変えるため、資産名は `Chat.Icon.Studio_0.1.0_x64-setup.exe` です。ページの「Windows版を入手」もこの名前を指します。
-
-未署名のため、SmartScreen で「詳細情報 → 実行」が出ることがあります。
+Windows版は未署名のため、警告が出る可能性が高いです。警告ダイアログの「詳細情報 → 実行」で起動できます。
 
 ## 必要環境（自分でビルドする場合）
 
